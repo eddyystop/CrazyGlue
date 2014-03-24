@@ -1,22 +1,22 @@
 {
   "name": "CrazyGlue",
-  "version": "0.2.0",
-  "homepage": "https://github.com/eddyystop/CrazyGlue",
-  "authors": [
-    "JohnSz <johnsz9999@gmail.com>"
-  ],
   "description": "A light-weight, bi-directional binding of DOM elements and JS objects. Customizable.",
+  "homepage": "https://github.com/eddyystop/CrazyGlue",
   "main": "CrazyGlue.js",
+  "version": "0.3.0",
   "keywords": [
     "bind", "binding", "data binding",
     "DOM"
   ],
-  "license": "MIT",
   "ignore": [
     "**/.*",
     "node_modules",
     "bower_components",
     "test",
     "tests"
+  ],
+  "license": "MIT",
+  "authors": [
+    "JohnSz <johnsz9999@gmail.com>"
   ]
 }

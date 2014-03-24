@@ -2,7 +2,7 @@
 /* global $ */
 
 /**
- * B-directional binding between this JS object and a DOM tag.
+ * Bi-directional binding between this JS object and a DOM tag.
  * Easy to customize. Depends on DOM 'change' event.
  * @param {*} $el is a jQuery $el collection, or a selector string.
  *   $('input[name=xxx]')

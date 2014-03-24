@@ -13,12 +13,14 @@ CrazyGlue is easy to customize or monkey patch for specialized needs.
 
 ## How to install
 ```sh
+bower CrazyGlue
+    or
 bower install git://github.com/eddyystop/CrazyGlue
 ```
 
 ## Usage
 
-#### 1. Bind to an INPUT tag (neither checkbox nor radio)
+#### 1. Bind to an INPUT tag (neither checkbox nor radio).
 ```html
 <input type="text" id="the_name" value="Barbara">
 ```
@@ -27,7 +29,7 @@ var name = new CrazyGlue('#the_name');
 // name.value => 'Barbara'
 
 name.change('John');
-// document.getElementById('name') => 'John'
+// document.getElementById('the_name') => 'John'
 // name.value => 'John'
 ```
 The JS object `name` is bound with the `<input>` tag.
@@ -44,7 +46,7 @@ The callback is called whenever the tag value changes.
 
 ```js
 var name = CrazyGlue('#the_name', 'John', function (value) {});
-// document.getElementById('name') => 'John'
+// document.getElementById('the_name') => 'John'
 // name.value => 'John'
 ```
 The tag value is changed during the binding.
